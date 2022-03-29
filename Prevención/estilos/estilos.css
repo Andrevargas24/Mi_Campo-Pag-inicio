@@ -1,0 +1,62 @@
+
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    }
+
+.subtitulo{
+    text-align: center;
+    font-weight: 300;
+    color:#9f8ad0;
+    margin-bottom: 40px;
+    font-size: 40px;
+}
+
+.contenedor-servicio{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.contenedor-servicio img{
+    width: 40%;
+}
+
+.incendio-servicio{
+    width: 45%;
+}
+
+
+
+.servie{
+    margin-bottom: 7px;
+    color: #9f8ad0;
+    }
+
+    .number{
+        display: inline-block;
+        background-image: linear-gradient(to top, rgb(169, 233, 144) 0%, #a9ffa6e0 100%);
+        width: 30px;
+        height:30px;
+        color:rgba(8, 8, 8, 0.993);
+        text-align: center;
+        border-radius: 50%;
+        font-weight: 700;
+        line-height: 30px;
+        margin-right: 5px;
+        }
+
+        .contenedor-señal{
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            flex-wrap: wrap;
+            }
+        .contenedor-flecha-img{
+            width: 40%;
+        }
+        
+        .flecha-señal{
+            width: 45%;
+            }

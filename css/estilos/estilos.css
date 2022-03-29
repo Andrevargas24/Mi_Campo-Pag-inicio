@@ -22,7 +22,7 @@
 
     header{
      height: 100vh;
-     background-image: linear-gradient(to top, rgba(255, 241, 235, 0.692) 0%, rgba(172, 225, 249, 0.575) 100%), url(../img/1portada.png);
+     background-image: linear-gradient(to top, rgba(255, 241, 235, 0.301) 0%, rgba(172, 225, 249, 0.253) 100%), url(../img/portada2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -37,33 +37,32 @@
         align-items: center;
         flex-direction:column;
         color: #fff;
-    }
 
-    .hamburguer{
-        position:fixed;
-        top: 30px;
-        right: 30px;
-        background: #fff;
-        width: 40px;
-        height: 40px;
-        cursor: pointer;
-        border-radius: 10px;
-        box-shadow: 0 0 6px rgba(0,0,0, .5);
 }
 
-.menu-navegacion{
-    position:absolute;
-    top: 0;
-    right: 0;
-    width: 30vw;
-    height: 100%;
-    background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-    box-shadow: 0 0 6px rgba(0,0,0, rgba(0,0,0, .5));
+.menu-navegacion {
+    list-style: none;
+    padding: 0;
+    background-image: #000a0c;
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
 }
+.menu-navegacion li a{
+    padding: 21px;
+    display:block;
+    text-decoration: none;
+    color: white;
+}
+.menu-navegacion li{
+    display: inline-block;
+    text-align: center;
+}
+.menu-navegacion  li a:hover{
+    background: #4deee6;
+
+}
+
 
 .spread{
     transform: translate(0);
